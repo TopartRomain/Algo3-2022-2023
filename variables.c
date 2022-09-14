@@ -7,8 +7,8 @@ int main() {
     scanf("%d", &n);
     if(n <=1) {
         printf("Vous devez choisir au moins 2 nombres !");
+        return 0;
     }
-    return 0;
 
     for(i=0;i<n;i++) {
         printf("Entrer une valeur : ");
